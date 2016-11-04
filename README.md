@@ -1,0 +1,1 @@
+Krtek (鼹鼠) is not a note taking app.
