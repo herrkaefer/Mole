@@ -60,11 +60,11 @@ For the format of meta data, there's not a standard defination. I have considere
 
 Mole does not require the user to add meta data, or require some specific ones. Actually you can totally ignore it, or add any meta you want. However, even there's no meta exists, Mole will display some helpful infomations for you. The rules are:
 
-- title: filename if meta does not exist
-- date: creation date if meta does not exist
-- category: "Uncategorized" if meta does not exist
-- tags: empty if meta does note exist
-- summary: first a few lines of text if meta does not exist
+- `title`: filename if meta does not exist
+- `date`: creation date if meta does not exist
+- `category`: "Uncategorized" if meta does not exist
+- `tags`: empty if meta does note exist
+- `summary`: first a few lines of text if meta does not exist
 
 
 ## What does not Mole do?
