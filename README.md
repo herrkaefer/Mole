@@ -1,4 +1,5 @@
-<img src="assets/icon.png" style="width: 100px;"/>
+
+<img src="assets/icon.png" width="100">
 
 ## What is Mole?
 
@@ -71,7 +72,7 @@ Mole (鼹鼠) is a knowledge management assisting tool based on markdown files.
 
 The meta datas are extracted by Mole and properly displyed. They are very helpful to get some key infomation about your document. Have a look at the interface:
 
-<img src="assets/ui.png" style="width: 500px;"/>
+<img src="assets/ui.png" width="500">
 
 For the format of meta data, there's not a standard defination. I have considered popular ones like Jekyll front matter and multimarkdown, and finally choose to use the comment block, because it is the most **intrusive** approach. It is safe to be included. Any editor should not recognize it as part of the main contents.
 
