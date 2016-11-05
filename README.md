@@ -1,6 +1,5 @@
 
 <img src="assets/Icon.png" width="100">
-![](assets/Icon.png)
 
 ## What is Mole?
 
