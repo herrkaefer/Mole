@@ -92,11 +92,17 @@ However, Mole does not require the user to add meta data, or any specific ones. 
 - When you add a note by Mole, the new doc will be created under a subfolder with the name of the category by default, i.e. `root/category/title.md` But you can move it as you wish later.
 - When you publish doc as Jekyll post, a `published: true` meta item will be appended to the meta data.
 
+
 ## Latest release
 
 [Download here](https://github.com/herrkaefer/Mole/releases). Only macOS is supported now.
 
 
+## Acknowledgement
+
+The app is developed with [Electron](http://electron.atom.io/). CSS is modified based on [Photon](http://photonkit.com/).
+
+The name Mole is from a classic Czech cartoon [Krtek](https://www.wikiwand.com/en/Mole_(Zden%C4%9Bk_Miler_character)) which is loved by my little daughter during my development of this app.
 
 
 
