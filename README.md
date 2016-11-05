@@ -71,7 +71,7 @@ Mole (鼹鼠) is a knowledge management assisting tool based on markdown files.
 ...
 ```
 
-The meta datas are extracted by Mole and properly displyed. They are very helpful to get some key infomation about your document. Have a look at the interface:
+The meta datas are extracted and properly displayed by Mole. They are very helpful to get some key infomation about your document. Have a look at the interface:
 
 <img src="assets/UI.png" width="500">
 
@@ -85,6 +85,12 @@ However, Mole does not require the user to add meta data, or any specific ones. 
 - `tags`: **empty** if meta does note exist
 - `summary`: **first a few lines of text** if meta does not exist
 
+
+## Some explanations
+
+- Mole needs you to specify a **root folder** which keeps all your docs. The folder can contain files of any format, and only the Markdown files are recognized and monitored by Mole.
+- When you add a note by Mole, the new doc will be created under a subfolder with the name of the category by default, i.e. `root/category/title.md` But you can move it as you wish later.
+- When you publish doc as Jekyll post, a `published: true` meta item will be appended to the meta data.
 
 ## Latest release
 
