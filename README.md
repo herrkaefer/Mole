@@ -1,9 +1,13 @@
 
 <img src="assets/Icon.png" width="100">
 
+## Latest release
+
+[Download here](https://github.com/herrkaefer/Mole/releases). Only macOS is supported now.
+
 ## What is Mole?
 
-Mole (鼹鼠) is a Markdown documents assisting tool.
+Mole (鼹鼠) is a Markdown documents management tool.
 
 ## What Mole is not?
 
@@ -85,16 +89,12 @@ However, Mole does not require the user to add meta data, or any specific ones. 
 - `summary`: **first a few lines of text** if meta does not exist
 
 
-## Some explanations
+## Some notes
 
 - Mole needs you to specify a **root folder** which keeps all your docs. The folder can contain files of any format, and only the Markdown files are recognized and monitored by Mole.
+- Supported Mardown file extensions: `md` (default) and `markdown`
 - When you add a note by Mole, the new doc will be created under a subfolder with the name of the category by default, i.e. `root/category/title.md` But you can move it as you wish later.
-- When you publish doc as Jekyll post, a `published: true` meta item will be appended to the meta data.
-
-
-## Latest release
-
-[Download here](https://github.com/herrkaefer/Mole/releases). Only macOS is supported now.
+- When you publish doc as Jekyll post, a `published: true` meta item will be appended to the meta data of the orginal doc. The transformed post doc will be placed at the Jekyll project's `_post` folder specified by you, with modified filename and front matter which is ready for publishing.
 
 
 ## Acknowledgement
